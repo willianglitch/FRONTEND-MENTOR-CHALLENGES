@@ -1,0 +1,50 @@
+@media (max-width:580px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .card-image{
+        height: 300px;
+        width: 100%;
+        background-image: url(../assets/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .card-image img{
+        display: none;
+        height: 400px;
+        width: 100%;
+        border-radius: 14px 14px 0 0;   
+    }
+    .card-Content{
+        max-width: 350px;
+        height: 100%;
+        background: #f0eadf;
+        border-radius: 0 0 14px 14px;  
+        padding: 30px;
+        margin-top: -10px;
+    }
+}
+@media (max-width:380px){
+    .card-image{
+        height: 250px;
+        width: 100%;
+        background-image: url(../assets/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .card-Content{
+        height: 90%;
+        padding: 20px;
+    }
+    .card-Content main h1{
+        margin-bottom: 20px;
+        font-family: 'Fraunces', serif;
+        color:  #363640;
+        margin-right: 30px;
+        font-size: 32px;
+    }
+}
